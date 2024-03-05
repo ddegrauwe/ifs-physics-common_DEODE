@@ -15,7 +15,8 @@ classifiers = [
 ]
 dependencies = [
     # install from source for better typing
-    'gt4py[dace] @ git+https://github.com/stubbiali/gt4py.git@cloudsc',
+    #'gt4py[dace] @ git+https://github.com/stubbiali/gt4py.git',
+	'gt4py[dace] @ git+https://github.com/GridTools/gt4py.git',
     'numpy>=1.21',
     'pydantic>=1.9',
     'sympl @ git+https://github.com/stubbiali/sympl.git@oop'
